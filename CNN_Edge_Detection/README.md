@@ -165,7 +165,7 @@ CNN Edge Detection/
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
-**Swamit Amit Jadhav**  
+**Karan Sanjay Jadhav**  
 Date: 18/09/2025
 
 ## Version History
