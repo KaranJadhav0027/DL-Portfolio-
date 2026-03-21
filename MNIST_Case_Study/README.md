@@ -281,7 +281,7 @@ tf.keras.mixed_precision.set_global_policy(policy)
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
-**Om Ravindra Wakhare**  
+**Karan Sanjay Jadhav**  
 Date: 18/09/2025
 
 ## Version History
