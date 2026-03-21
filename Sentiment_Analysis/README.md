@@ -94,5 +94,5 @@ python sentiment_rnn.py
 
 ## 👨‍💻 Author
 
-Developed by **Swamit Amit Jadhav**
-📧 Contact: swamitaajadhav98@gmail(mailto:swamitaajadhav98@gmail.com)
+Developed by **Karan Sanjay Jadhav**
+
