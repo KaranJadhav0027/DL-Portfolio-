@@ -10,7 +10,7 @@ def MarvellousSentimentAnalysis():
     "I love this movie", 
     "This film was great", 
     "What a fantastic experience", 
-    "I really enjoyed it", 
+    "I really enjoyed it",
     "Absolutely wonderful acting", 
     "I hate this movie", 
     "This film was terrible", 
