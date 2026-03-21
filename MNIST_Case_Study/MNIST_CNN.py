@@ -58,7 +58,7 @@ import seaborn as sns
 ###############################################################################################################
 # Function name :- load_and_preprocess_data()
 # Description :- Load MNIST dataset and preprocess it for CNN training
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def load_and_preprocess_data():
@@ -95,7 +95,7 @@ def load_and_preprocess_data():
 ###############################################################################################################
 # Function name :- build_cnn_model()
 # Description :- Build a custom CNN architecture optimized for MNIST digit recognition
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def build_cnn_model(input_shape=(28, 28, 1), num_classes=10):
@@ -148,7 +148,7 @@ def build_cnn_model(input_shape=(28, 28, 1), num_classes=10):
 ###############################################################################################################
 # Function name :- create_data_augmentation()
 # Description :- Create data augmentation pipeline for improved model generalization
-# Author :- Swamit Amit Jadhav
+# Author :-Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def create_data_augmentation():
@@ -167,7 +167,7 @@ def create_data_augmentation():
 ###############################################################################################################
 # Function name :- train_model()
 # Description :- Train the CNN model with callbacks and data augmentation
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def train_model(model, x_train, y_train, x_val, y_val, epochs=50, batch_size=128):
@@ -218,7 +218,7 @@ def train_model(model, x_train, y_train, x_val, y_val, epochs=50, batch_size=128
 ###############################################################################################################
 # Function name :- evaluate_model()
 # Description :- Evaluate model performance on test set with detailed metrics
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def evaluate_model(model, x_test, y_test):
@@ -246,7 +246,7 @@ def evaluate_model(model, x_test, y_test):
 ###############################################################################################################
 # Function name :- plot_training_history()
 # Description :- Plot training history including accuracy and loss curves
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def plot_training_history(history):
@@ -281,7 +281,7 @@ def plot_training_history(history):
 ###############################################################################################################
 # Function name :- plot_confusion_matrix()
 # Description :- Plot confusion matrix for model evaluation
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def plot_confusion_matrix(y_true, y_pred):
@@ -303,7 +303,7 @@ def plot_confusion_matrix(y_true, y_pred):
 ###############################################################################################################
 # Function name :- visualize_predictions()
 # Description :- Visualize sample predictions with true and predicted labels
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def visualize_predictions(x_test, y_true, y_pred, num_samples=16):
@@ -330,7 +330,7 @@ def visualize_predictions(x_test, y_true, y_pred, num_samples=16):
 ###############################################################################################################
 # Function name :- save_model_and_history()
 # Description :- Save trained model and training history for future use
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def save_model_and_history(model, history, test_accuracy):
@@ -354,7 +354,7 @@ def save_model_and_history(model, history, test_accuracy):
 ###############################################################################################################
 # Function name :- load_trained_model()
 # Description :- Load pre-trained model for predictions
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def load_trained_model(model_path='mnist_cnn_model.h5'):
@@ -371,7 +371,7 @@ def load_trained_model(model_path='mnist_cnn_model.h5'):
 ###############################################################################################################
 # Function name :- predict_digit()
 # Description :- Predict digit from a single image
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def predict_digit(model, image):
@@ -395,7 +395,7 @@ def predict_digit(model, image):
 ###############################################################################################################
 # Function name :- main()
 # Description :- Main function to orchestrate the complete MNIST training pipeline
-# Author :- Swamit Amit Jadhav
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def main():
