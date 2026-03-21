@@ -44,7 +44,7 @@ from tensorflow.keras.applications.mobilenet_v2 import (
 ###############################################################################################################
 # Function name :- load_or_cache_model()
 # Description :- Load MobileNetV2 model from cache if available, else create a new one and cache it
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def load_or_cache_model(model_path="mobilenetv2_model.joblib"):
@@ -67,7 +67,7 @@ def load_or_cache_model(model_path="mobilenetv2_model.joblib"):
 ###############################################################################################################
 # Function name :- run_realtime_classification()
 # Description :- Run real-time classification using webcam and MobileNetV2
-# Author :- Om Ravindra Wakhare
+# Author :-Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def run_realtime_classification():
