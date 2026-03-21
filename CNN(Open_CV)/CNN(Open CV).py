@@ -48,7 +48,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_i
 ###############################################################################################################
 # Function name :- load_or_save_model()
 # Description :- Load MobileNetV2 model from disk if available, else create and save it for future use
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def load_or_save_model(model_path="mobilenetv2_model.pkl"):
@@ -67,7 +67,7 @@ def load_or_save_model(model_path="mobilenetv2_model.pkl"):
 ###############################################################################################################
 # Function name :- MarvellousImageClassifier()
 # Description :- Main function to perform real-time image classification using webcam and MobileNetV2
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def MarvellousImageClassifier():
@@ -118,7 +118,7 @@ def MarvellousImageClassifier():
 ###############################################################################################################
 # Function name :- main()
 # Description :- Entry point of the application
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def main():
