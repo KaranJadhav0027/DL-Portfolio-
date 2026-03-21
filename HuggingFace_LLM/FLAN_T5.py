@@ -25,7 +25,7 @@ print(f"FLAN-T5_Summarizer_Q&A_Assistant {MODEL_NAME} model loading...")
 ###############################################################################################################
 # Function name :- load_model_and_tokenizer()
 # Description :- Load FLAN-T5 model and tokenizer from cache if available, else download and cache them
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def load_model_and_tokenizer():
@@ -61,7 +61,7 @@ model, tokenizer = load_model_and_tokenizer()
 ###############################################################################################################
 # Function name :- Marvellous_run_flan()
 # Description :- Run FLAN-T5 model inference on given prompt with configurable parameters
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def Marvellous_run_flan(prompt: str, max_new_tokens: int = 128) -> str: 
@@ -86,7 +86,7 @@ def Marvellous_run_flan(prompt: str, max_new_tokens: int = 128) -> str:
 ###############################################################################################################
 # Function name :- Marvellous_summarize_text()
 # Description :- Summarize given text using FLAN-T5 model in 4-6 bullet points
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def Marvellous_summarize_text(text: str) -> str: 
@@ -102,7 +102,7 @@ def Marvellous_summarize_text(text: str) -> str:
 ###############################################################################################################
 # Function name :- Marvellous_load_context()
 # Description :- Load context text from file for question answering
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def Marvellous_load_context(path: str = "context.txt") -> str: 
@@ -121,7 +121,7 @@ def Marvellous_load_context(path: str = "context.txt") -> str:
 ###############################################################################################################
 # Function name :- Marvellous_answer_from_context()
 # Description :- Answer questions based on provided context using FLAN-T5 model
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def Marvellous_answer_from_context(question: str, context: str) -> str: 
@@ -146,7 +146,7 @@ def Marvellous_answer_from_context(question: str, context: str) -> str:
 ###############################################################################################################
 # Function name :- main()
 # Description :- Entry point of the application with interactive menu for FLAN-T5 operations
-# Author :- Om Ravindra Wakhare
+# Author :- Karan Sanjay Jadhav
 # Date :- 18/09/2025
 ###############################################################################################################
 def main(): 
