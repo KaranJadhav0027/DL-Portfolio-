@@ -200,7 +200,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Karan Sanjay Jadhav **  
+**Karan Sanjay Jadhav**  
 Date: 18/09/2025
 
 ## 📞 Support
