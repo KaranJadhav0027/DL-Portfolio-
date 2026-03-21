@@ -1,0 +1,3 @@
+Test Accuracy: 0.9168000221252441
+Test Loss: 0.2336343675851822
+Epochs: 15
