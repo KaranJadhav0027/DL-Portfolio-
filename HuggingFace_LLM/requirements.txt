@@ -1,6 +1,3 @@
-# Deep Learning Case Studies - Requirements
-# Author: Om Ravindra Wakhare
-# Date: 18/09/2025
 
 # Core Dependencies
 numpy>=1.21.0
